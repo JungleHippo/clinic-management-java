@@ -89,9 +89,3 @@ java Clinic0_1
 Run it from the folder that contains the CSV files. The menu is numbered; choose **8** to save and exit. Data is written **only on exit through the menu**, so quitting any other way discards the session's changes. If a CSV is missing, the program reports it at start-up and creates the file on exit. Use a UTF-8 terminal so the Greek text displays correctly.
 
 The bundled CSVs contain a few placeholder records. `PersonTester` is a standalone test driver, and running it overwrites `doctors.csv` and `patients.csv` with its own sample content.
-
-## Ideas for extension
-
-- Unit tests for the interpretation rules, and an English or switchable-language interface.
-- Replace CSV storage with a database (e.g. SQLite via JDBC) and add a GUI or web front end.
-- Record measurement history per patient with trends, and validate AMKA check digits.
